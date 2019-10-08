@@ -69,6 +69,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnChoice2.setText(choice2);
         btnChoice3.setText(choice3);
         btnChoice4.setText(choice4);
+
+        btnChoice1.setOnClickListener(this);
+        btnChoice2.setOnClickListener(this);
+        btnChoice3.setOnClickListener(this);
+        btnChoice4.setOnClickListener(this);
     }
 
     @Override
